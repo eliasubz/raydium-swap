@@ -148,7 +148,7 @@ async fn main() -> anyhow::Result<()> {
                 anyhow::anyhow!("failed reading keypair from path {}", path)
             })?;
             info!(
-                "Read keypair from {} successfully. Address: {}",
+                "Read keypair from {} successfullyor not. Address: {}",
                 path,
                 keypair.pubkey().to_string()
             );
